@@ -9,14 +9,14 @@ const MainMenu = () => {
                 <h1 className='title'>Goethe German</h1>
             </div>
 
-            <div className='button'>
-                <Link className='link' to="/nouns">İsimler</Link>
+            <div className='button-main' style={{backgroundColor:'#FFB84C'}}>
+                <Link className='link-main' to="/nouns">İsimler</Link>
             </div>
-            <div className='button'>
-                <Link className='link' to="/verbs">Fiiler</Link>
+            <div className='button-main' style={{backgroundColor:'#F266AB'}}>
+                <Link className='link-main' to="/verbs">Fiiler</Link>
             </div>
-            <div className='button'>
-                <Link className='link' to="/settings">Ayarlar</Link>
+            <div className='button-main' style={{backgroundColor:'#A459D1'}}>
+                <Link className='link-main' to="/settings">Ayarlar</Link>
             </div>
             <div className='footer'></div>
         </div>
