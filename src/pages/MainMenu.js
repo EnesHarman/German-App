@@ -18,7 +18,9 @@ const MainMenu = () => {
             <div className='button-main' style={{backgroundColor:'#A459D1'}}>
                 <Link className='link-main' to="/settings">Ayarlar</Link>
             </div>
-            <div className='footer'></div>
+            <div className='footer'>
+                Enes Harman tarafından hazırlanmıştır. Hakları saklı değildir. Bir backend geliştiricisin ürünü olduğunu unutmayalım :)
+            </div>
         </div>
     );
 }

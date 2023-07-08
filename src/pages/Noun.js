@@ -5,11 +5,11 @@ import { Link } from 'react-router-dom';
 const Noun = () => {
     return (
         <div className='body'>
-            <div className='content content_german'>
+            <div className='content-noun content_german'>
                 der Bruder
             </div>
 
-            <div className='content content_translate content_plural' style={{ marginBottom: '50px' }}>
+            <div className='content-noun content_translate content_plural' style={{ marginBottom: '50px' }}>
                 Erkek Kardeş
             </div>
 

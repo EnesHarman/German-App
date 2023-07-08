@@ -41,4 +41,8 @@
 
 .footer {
     margin-bottom: 100px;
+    width: 80%;
+    font-size: x-small;
+    font-family: 'Belanosima', sans-serif;
+    text-align: center;
 }
