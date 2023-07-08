@@ -11,12 +11,6 @@ const Noun = () => {
         getRandomName();
     }, [])
 
-    const test = () => {
-        console.log(currentNoun);
-        console.log(nouns);
-        console.log(NounsFile);
-    }
-
     const getRandomName = () => {
         if (nouns.length === 1) {
             setNouns([...NounsFile])
@@ -46,13 +40,13 @@ const Noun = () => {
 
 
             {descMode === "translate" &&
-                <div className='content-noun content_translate' style={{ marginBottom: '50px' }} onClick={() => test()}>
+                <div className='content-noun content_translate' style={{ marginBottom: '50px' }}>
                     {currentNoun.turkish}
                 </div>
             }
 
             {descMode === "plural" &&
-                <div className='content-noun content_plural' style={{ marginBottom: '50px' }} onClick={() => test()}>
+                <div className='content-noun content_plural' style={{ marginBottom: '50px' }}>
                     {currentNoun.plural}
                 </div>
             }
