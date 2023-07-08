@@ -20,34 +20,34 @@
     padding: 15px;
     font-size: large;
     font-family: 'Belanosima', sans-serif;
-  }
+}
 
-  .content_german.der {
+.content_german.der {
     background-color: #0079FF;
     color: white;
-  }
+}
 
-  .content_german.die {
+.content_german.die {
     background-color: #FF0060;
     color: white;
-  }
+}
 
-  .content_german.das {
+.content_german.das {
     background-color: #00DFA2;
-  }
+}
 
-.content_plural{
+.content_plural {
     background-color: #DB005B;
     color: white;
 }
 
-  .content_translate.eng{
+.content_translate {
     background-color: #AEE2FF;
-  }
+}
 
 
 
-  .buttons{
+.buttons {
     height: 10%;
     width: 80%;
     display: flex;
@@ -55,7 +55,7 @@
     align-items: center;
 }
 
-.next_button{
+.next_button {
     text-align: center;
     font-size: 25px;
     border: 1px solid black;
@@ -67,7 +67,7 @@
     font-family: 'Belanosima', sans-serif;
 }
 
-.info_button{
+.info_button {
     text-align: center;
     font-size: 25px;
     font-weight: bold;
@@ -79,6 +79,6 @@
     background-color: #C3EDC0;
 }
 
-.info_button svg{
+.info_button svg {
     margin-bottom: 6px;
 }
