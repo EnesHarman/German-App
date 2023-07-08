@@ -19,9 +19,9 @@
     background-color: #C3EDC0;
     width: 50%;
     margin: 25px 0;
-  }
-  
-  .link {
+}
+
+.link {
     text-decoration: none;
     color: black;
     padding: 15px;
@@ -31,16 +31,15 @@
     align-items: center;
     justify-content: center;
     font-size: large;
-
     font-family: 'Belanosima', sans-serif;
-  }
+}
 
-  .title{
+.title {
     font-family: 'Belanosima', sans-serif;
     font-size: xxx-large;
     margin: 115px 0;
-  }
+}
 
-  .footer{
+.footer {
     margin-bottom: 100px;
-  }
+}
