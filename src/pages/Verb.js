@@ -45,7 +45,7 @@ const Verb = () => {
         {currentVerb.basic}
       </div>
       <div className='content content_translate' style={{ marginBottom: '10px', border: 'none' }}>
-        {currentVerb.turkhish}
+        {currentVerb.turkish}
       </div>
 
       <div className='forms'>
